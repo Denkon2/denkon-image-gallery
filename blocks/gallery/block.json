@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "denkon/image-gallery",
+  "version": "0.2.27",
+  "title": "Denkon Image Gallery",
+  "category": "media",
+  "icon": "format-gallery",
+  "description": "Display a responsive Denkon image gallery.",
+  "textdomain": "denkon-image-gallery",
+  "attributes": {"id":{"type":"number","default":0},"layout":{"type":"string","default":""},"columns":{"type":"string","default":""},"size":{"type":"string","default":""},"lightbox":{"type":"string","default":""},"captions":{"type":"string","default":""},"ratio":{"type":"string","default":""},"gap":{"type":"string","default":""},"per_page":{"type":"string","default":""},"ajax_pagination":{"type":"string","default":""},"load_more":{"type":"string","default":""}},
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "render": "file:./render.php"
+}
