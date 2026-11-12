@@ -68,6 +68,12 @@ Gallery posts and their settings are retained by default. This prevents content 
 
 Available optional attributes: `layout`, `columns` (1-12), `ratio`, `gap`, `size`, `per_page`, `lightbox`, and `captions`.
 
+== Screenshots ==
+
+1. Gallery Studio: create a gallery, add images from the WordPress Media Library, and set its default display.
+2. Responsive Grid gallery displayed on the front end.
+3. ImageBrowser layout with featured image, thumbnail navigation, and lightbox support.
+
 == Changelog ==
 
 = 0.2.27 =
